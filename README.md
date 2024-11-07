@@ -8,8 +8,8 @@ steps to install Ollama in the machine:
   3. For Linux, open the terminal and type <code>curl -fsSL https://ollama.com/install.sh | sh </code>.
   4. After installing, users need to install two models used in the RAG, which are LLama3.2 and nomic.
   5. To download the models open cmd for Windows or terminal for Linux:
-         llama3.2 : ollama pull llama3.2
-         nomic: ollama pull nomic-embed-text
+         llama3.2 : <code>ollama pull llama3.2</code>
+         nomic: <code>ollama pull nomic-embed-text</code>
 After configuring ollama, the user can check if ollama is properly installed by typing [link](https://127.0.0.1:11434) in the browser.
 
 The GPU requirement for the whole process is  4574 MiB.
